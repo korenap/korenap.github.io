@@ -1,0 +1,81 @@
+body {
+    font-size: 14pt;
+    text-align: center;
+    color: #663333;
+    //line-height: 100px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6699ff+0,6699ff+19&amp;0.23+0,0+22 */
+    background: -moz-linear-gradient(top,  rgba(102,153,255,0.23) 0%, rgba(102,153,255,0.03) 19%, rgba(102,153,255,0) 22%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(102,153,255,0.23) 0%,rgba(102,153,255,0.03) 19%,rgba(102,153,255,0) 22%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(102,153,255,0.23) 0%,rgba(102,153,255,0.03) 19%,rgba(102,153,255,0) 22%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b6699ff', endColorstr='#006699ff',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+}
+#all {
+    max-width: 1024px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+//border: solid 1px red;
+}
+#header {
+    height: auto;
+    max-width: 1024px;
+}
+img.header {
+    max-width: 100%;
+    height: auto;
+}
+img.pastries {
+    float: left;
+    padding: 5px;
+    max-width: 30%;
+    height: auto;
+}
+img.cupcakes {
+    float: right;
+    padding: 5px;
+    max-width: 30%;
+    height: auto;
+}
+#mainContentList {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    //float: left;
+    //width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+//border: solid 1px yellow;
+}
+#mainContent {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    //float: left;
+    //width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    //padding-right: 40px;
+    //display: inline-block;
+//border: solid 1px yellow;
+}
+a {
+    font-size: 14pt;
+}
+#footer {
+    height: 100%;
+    max-width: 100%;
+    //margin-left: 0px;
+    //margin-right: 0px;
+//border: solid 1px darkgreen;
+}
+img.footer {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: circle;
+    //list-style-position: inside;
+}
