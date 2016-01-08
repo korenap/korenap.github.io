@@ -79,3 +79,48 @@ ul {
     list-style-type: circle;
     //list-style-position: inside;
 }
+
+//Navigation Menu
+#navigation {
+    //background-color: #eee;
+    text-align: center;
+}
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+#navigation li {
+    //border-right: 1px solid green;
+    display: inline-block;
+    //float: left;
+    margin-right: 20px;
+}
+#navigation li:last-child {
+    border-right-width: 0;
+}
+#navigation a {
+    background-color: #663333;
+    color: #ffffff;
+    display: block;
+    padding: .75em 1.5em;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    border-radius: 15px;
+}
+#navigation a:hover {
+    background-color: #33cc99; //#666633;
+}
+.clearfix {
+    *zoom: 1;
+}
+    .clearfix:after, 
+    .clearfix:before {
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
