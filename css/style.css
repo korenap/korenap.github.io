@@ -61,9 +61,9 @@ img.cupcakes {
     //display: inline-block;
 //border: solid 1px yellow;
 }
-a {
-    font-size: 14pt;
-}
+//a {
+//    font-size: 14pt;
+//}
 #footer {
     height: 100%;
     max-width: 100%;
@@ -100,6 +100,7 @@ ul {
     border-right-width: 0;
 }
 #navigation a {
+    font-size: 16pt;
     background-color: #663333;
     color: #ffffff;
     display: block;
@@ -123,4 +124,51 @@ ul {
 }
 .clearfix:after {
     clear: both;
+}
+
+.contact {
+    display: none;
+    clear: both;
+}
+.webaddress {
+    display: none;
+    clear: both;
+}
+
+@media screen and (min-width: 480px) {
+    #navigation a {
+        font-size: 22pt;
+    }
+}
+
+@media screen {
+    .print {
+        display: none;
+    }
+}
+
+@media print {
+    #navigation {
+        display: none;
+    }
+    .contact {
+        display: block;
+    }
+    .webaddress {
+        display: block;
+    }
+    .screen {
+        display: none;
+        clear: both;
+    }
+    .noprint {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.soon {
+    font-size: 44pt;
 }
