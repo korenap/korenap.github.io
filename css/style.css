@@ -169,6 +169,50 @@ ul {
     }
 }
 
-.soon {
-    font-size: 44pt;
+.prices-cakes {
+    float: left;
+    max-width: 30%;
+    padding-right: 10px;
+}
+
+#cakes {
+    text-align: left;
+    display: block;
+    float: left;
+//border: 1px solid red;
+    padding-right: 5px;
+}
+
+#cake-vars {
+    text-align: left;
+    display: block;
+    float: left;
+ //border: 1px solid green;
+    font-size: 14pt;
+}
+
+#cakes-price {
+    text-align: left;
+    display: block;
+    float: left;
+ //border: 1px solid blue;
+    max-width: 100%;
+        width: 50%;
+    font-size: 16pt;
+}
+
+#cookies {
+    float: left;
+    display: block;
+    text-align: left;
+}
+#candies {
+    float: left;
+    display: block;
+    text-align: left;
+}
+#call {
+    float: left;
+    display: block;
+    text-align: left;
 }
