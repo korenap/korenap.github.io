@@ -55,10 +55,11 @@ img.cupcakes {
     text-align: center;
     //float: left;
     //width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    //margin-left: auto;
+    //margin-right: auto;
     //padding-right: 40px;
-    //display: inline-block;
+    display: block;
+    width: 100%;
 //border: solid 1px yellow;
 }
 //a {
@@ -135,9 +136,130 @@ ul {
     clear: both;
 }
 
-@media screen and (min-width: 480px) {
+.cakes-img {
+    float: left;
+    max-width: 30%;
+    padding-right: 10px;
+}
+
+.print-cakes-img {
+    display: none;
+}
+
+#cakes {
+//    text-align: left;
+//    display: inline;
+   float: left;
+//border: 1px solid red;
+//    padding-right: 5px;
+    width:45%
+}
+
+#cakes-list {
+    text-align: left;
+    display: block;
+    float: left;
+ //border: 1px solid green;
+    font-size:16pt;
+}
+
+#cakes-sublist {
+    text-align: left;
+    display: block;
+    float: left;
+//border: 1px solid blue;
+    font-size: 14pt;
+
+}
+
+#cakes-price {
+    text-align: left;
+    display: inline;
+    float: left;
+//border: 1px solid yellow;
+    font-size: 14pt;
+    width: 32%;
+}
+#fromscratch {
+    font-size: 18pt;
+}
+#lowerContent {
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    //float: left;
+    //width: 50%;
+    //margin-left: auto;
+    //margin-right: auto;
+    //padding-right: 40px;
+    display: block;
+    width: 100%;
+//border: solid 1px black;
+}
+
+.cookies-img {
+    float: left;
+    max-width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.candies-img {
+    float: right;
+    max-width: 20%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#cookies {
+    float: left;
+    display: inline;
+    text-align: left;
+}
+#candies {
+    float: left;
+    display: inline;
+    text-align: left;
+}
+#call {
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px) {
     #navigation a {
         font-size: 22pt;
+    }
+    #cakes {
+       width: 70%;
+    }
+    #cakes-list {
+        font-size: 26pt;
+    }
+    #cakes-sublist {
+        font-size: 22pt;
+    }
+    #cakes-price {
+        width: 100%;
+    }
+    #fromscratch {
+        font-size: 32pt;
+    }
+    .cookies-img {
+        float: left;
+        max-width: 15%;
+    }
+    .candies-img {
+        float: right;
+        max-width: 15%;
+    }
+    #lowerContent {
+        font-size: 22pt;
+    }
+    #call {
+        font-size: 24pt;
     }
 }
 
@@ -167,52 +289,34 @@ ul {
     a {
         text-decoration: none;
     }
-}
-
-.prices-cakes {
-    float: left;
-    max-width: 30%;
-    padding-right: 10px;
-}
-
-#cakes {
-    text-align: left;
-    display: block;
-    float: left;
-//border: 1px solid red;
-    padding-right: 5px;
-}
-
-#cake-vars {
-    text-align: left;
-    display: block;
-    float: left;
- //border: 1px solid green;
-    font-size: 14pt;
-}
-
-#cakes-price {
-    text-align: left;
-    display: block;
-    float: left;
- //border: 1px solid blue;
-    max-width: 100%;
-        width: 50%;
-    font-size: 16pt;
-}
-
-#cookies {
-    float: left;
-    display: block;
-    text-align: left;
-}
-#candies {
-    float: left;
-    display: block;
-    text-align: left;
-}
-#call {
-    float: left;
-    display: block;
-    text-align: left;
+    .cakes-img {
+        display: none;
+    }
+    .print-cakes-img {
+        display: inline;
+        max-width: 30%;
+        float: right;
+        padding-left: 5px;
+    }
+    #cakes {
+       width: 35%;
+    }
+    #cakes-list {
+        font-size: 14pt;
+    }
+    #cakes-sublist {
+        font-size: 10pt;
+    }
+    #cakes-price {
+        width: 63%;
+    }
+    #fromscratch {
+        font-size:10pt;
+    }
+    #lowerContent {
+        font-size: 10pt;
+    }
+    #call {
+        font-size: 10pt;
+    }
 }

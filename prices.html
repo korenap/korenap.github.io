@@ -16,13 +16,14 @@
                 </ul>
             </nav>
             <header id="mainContentList">
-                <p>
+                <p id="fromscratch">
                     All cakes, cupcakes, cake pops, cookies, and candies are made from scratch
                 </p>
             </header>
-            <section id="mainContent">
-                <img class="prices-cakes" src="/images/prices-cakes.png" alt="Cake Prices" />
+            <div id="mainContent" class="clearfix">
+                <img class="cakes-img" src="/images/prices-cakes.png" alt="Cake Prices" />
                 <div id="cakes">
+                    <div id="cakes-list">
                     <ul>
                         <li>Cakes & Cupcakes
                             <ul>
@@ -36,8 +37,8 @@
                             </ul>
                         </li>
                     </ul>
-
-                    <div id="cake-vars">
+                    </div>
+                    <div id="cakes-sublist">
                         <ul>
                             <li>Icings
                                 <ul>
@@ -69,8 +70,9 @@
                 </div>
 
                 <div id="cakes-price">
+                    <img class="print-cakes-img" src="/images/prices-cakes.png" alt="Cake Prices" />
                     <p>
-                        Prices start with 6&quot;. $15 and up to $50 depending on what icing
+                        Cake prices start with 6&quot;. $15 and up to $50 depending on what icing
                         or fondant is used; layered or single layer cake.
 
                     </p>
@@ -91,9 +93,11 @@
                 </div>
 
  
-            </section>
+            </div>
  
-            <section>
+           <div id="lowerContent" class="clearfix">
+               <img class="cookies-img" src="images/cookies.png" alt="Cookies" />
+               <img class="candies-img" src="images/candies.png" alt="Candies" />
                <div id="cookies">
                     <ul>
                         <li>Cookies
@@ -125,7 +129,7 @@
                     Call for pricing for cookies and candies as prices vary.
                 </p>
                 </div>
-            </section>
+            </div>
             <footer id="footer">
                 <img class="footer" src="images/footer.png" alt="Footer" />
             </footer>
