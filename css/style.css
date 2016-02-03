@@ -266,6 +266,9 @@ ul {
     #call {
         font-size: 24pt;
     }
+    #navigation li:last-child {
+        padding-top: 10px;
+    }
 }
 
 @media screen {
