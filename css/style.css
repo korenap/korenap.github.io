@@ -115,6 +115,11 @@ ul {
 #navigation a:hover {
     background-color: #33cc99; //#666633;
 }
+
+#navigation a.fbcolor {
+    background-color: #3b5998;
+}
+    
 .clearfix {
     *zoom: 1;
 }
